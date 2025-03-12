@@ -36,6 +36,14 @@ while opcion != 5:
         print("estoy en la 2")
     elif opcion==3:
         print("estoy en la 3")
+        
+        productoCambio=int(input("Digita el id del producto a cambiar"))
+    
+         for productoBuscado in productos:
+                           if productoBuscado["id"]==productoCambio:
+                               print("lo encotre")
+                           else:
+                               print("no lo encontre")
     elif opcion==4:
         print("estoy en la 4")
     else:
